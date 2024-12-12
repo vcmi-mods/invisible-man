@@ -3,19 +3,20 @@
 	"description" : "New unit - Invisible Man",
 	"author": "Graphics and mod: avatar",
 	"contact": "https://www.forum.acidcave.net/topic.php?TID=2961",
-	"version" : "1.2",
+	"version" : "1.3",
 	"modType" : "Creatures",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.6.0"
 	},	
 	"changelog" :
 	{
 		"1.0"   : [ "Initial release" ],
 		"1.1"   : [ "Update to vcmi-1.4 format" ],
-		"1.2"   : [ "Czech translation by George King" ]
+		"1.2"   : [ "Czech translation by George King" ],
+		"1.3"   : [ "Update to vcmi-1.6 format" ]
 	},
 	"chinese" : {
 		"name" : "隐形人",
