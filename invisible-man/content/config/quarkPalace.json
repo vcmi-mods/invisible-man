@@ -39,16 +39,14 @@
 							{ "amount": 2, "type" : "invisibleMan" },
 							{ "amount": 2, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 2500
-							},
-							"creatures" : 
-							[
-								{ "amount": 2, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 2500
+						},
+						"creatures" : 
+						[
+							{ "amount": 2, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -62,16 +60,14 @@
 							{ "amount": 4, "type" : "invisibleMan" },
 							{ "amount": 4, "type" : "invisibleMan" }
 						],
-							"reward" : {
-							"resources": 
-							{
-								"gold" : 3500
-							},
-							"creatures" : 
-							[
-								{ "amount": 3, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 3500
+						},
+						"creatures" : 
+						[
+							{ "amount": 3, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -85,16 +81,14 @@
 							{ "amount": 6, "type" : "invisibleMan" },
 							{ "amount": 6, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 4500
-							},
-							"creatures" : 
-							[
-								{ "amount": 4, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 4500
+						},
+						"creatures" : 
+						[
+							{ "amount": 4, "type": "invisibleMan" }
+						]
 					},
 					
 					{
@@ -109,16 +103,14 @@
 							{ "amount": 8, "type" : "invisibleMan" },
 							{ "amount": 8, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 5500
-							},
-							"creatures" : 
-							[
-								{ "amount": 5, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 5500
+						},
+						"creatures" : 
+						[
+							{ "amount": 5, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -132,16 +124,14 @@
 							{ "amount": 10, "type" : "invisibleMan" },
 							{ "amount": 10, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 6500
-							},
-							"creatures" : 
-							[
-								{ "amount": 6, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 6500
+						},
+						"creatures" : 
+						[
+							{ "amount": 6, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -155,16 +145,14 @@
 							{ "amount": 12, "type" : "invisibleMan" },
 							{ "amount": 12, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 7500
-							},
-							"creatures" : 
-							[
-								{ "amount": 7, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 7500
+						},
+						"creatures" : 
+						[
+							{ "amount": 7, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -178,16 +166,14 @@
 							{ "amount": 14, "type" : "invisibleMan" },
 							{ "amount": 14, "type" : "invisibleMan" }
 						],
-						"reward" : {
-							"resources": 
-							{
-								"gold" : 8500
-							},
-							"creatures" : 
-							[
-								{ "amount": 8, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 8500
+						},
+						"creatures" : 
+						[
+							{ "amount": 8, "type": "invisibleMan" }
+						]
 					},
 					{
 						"message" : 34,
@@ -201,16 +187,14 @@
 							{ "amount": 18, "type" : "invisibleMan" },
 							{ "amount": 18, "type" : "invisibleMan" }
 						],
-							"reward" : {
-							"resources": 
-							{
-								"gold" : 9500
-							},
-							"creatures" : 
-							[
-								{ "amount": 10, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 9500
+						},
+						"creatures" : 
+						[
+							{ "amount": 10, "type": "invisibleMan" }
+						]
 					}
 				]
 			}
