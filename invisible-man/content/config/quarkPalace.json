@@ -21,9 +21,15 @@
 					"rarity"	: 100,
 					"zoneLimit" : 1
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 20,
+						"message" : 34,
+						"appearChance": { "min" : 0, "max" : 20 },
 						"guards": [
 							{ "amount": 2, "type" : "invisibleMan" },
 							{ "amount": 2, "type" : "invisibleMan" },
@@ -33,21 +39,18 @@
 							{ "amount": 2, "type" : "invisibleMan" },
 							{ "amount": 2, "type" : "invisibleMan" }
 						],
-						"combat_value": 500,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 2500
-							},
-							"creatures" : 
-							[
-								{ "amount": 2, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 2500
+						},
+						"creatures" : 
+						[
+							{ "amount": 2, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 20,
+						"message" : 34,
+						"appearChance": { "min" : 20, "max" : 40 },
 						"guards": [
 							{ "amount": 4, "type" : "invisibleMan" },
 							{ "amount": 4, "type" : "invisibleMan" },
@@ -57,21 +60,18 @@
 							{ "amount": 4, "type" : "invisibleMan" },
 							{ "amount": 4, "type" : "invisibleMan" }
 						],
-						"combat_value": 800,
-							"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 3500
-							},
-							"creatures" : 
-							[
-								{ "amount": 3, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 3500
+						},
+						"creatures" : 
+						[
+							{ "amount": 3, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 20,
+						"message" : 34,
+						"appearChance": { "min" : 40, "max" : 60 },
 						"guards": [
 							{ "amount": 6, "type" : "invisibleMan" },
 							{ "amount": 6, "type" : "invisibleMan" },
@@ -81,22 +81,19 @@
 							{ "amount": 6, "type" : "invisibleMan" },
 							{ "amount": 6, "type" : "invisibleMan" }
 						],
-						"combat_value": 9000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 4500
-							},
-							"creatures" : 
-							[
-								{ "amount": 4, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 4500
+						},
+						"creatures" : 
+						[
+							{ "amount": 4, "type": "invisibleMan" }
+						]
 					},
 					
 					{
-						"chance": 15,
+						"message" : 34,
+						"appearChance": { "min" : 60, "max" : 75 },
 						"guards": [
 							{ "amount": 8, "type" : "invisibleMan" },
 							{ "amount": 8, "type" : "invisibleMan" },
@@ -106,21 +103,18 @@
 							{ "amount": 8, "type" : "invisibleMan" },
 							{ "amount": 8, "type" : "invisibleMan" }
 						],
-						"combat_value": 10000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 5500
-							},
-							"creatures" : 
-							[
-								{ "amount": 5, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 5500
+						},
+						"creatures" : 
+						[
+							{ "amount": 5, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance": { "min" : 75, "max" : 85 },
 						"guards": [
 							{ "amount": 10, "type" : "invisibleMan" },
 							{ "amount": 10, "type" : "invisibleMan" },
@@ -130,21 +124,18 @@
 							{ "amount": 10, "type" : "invisibleMan" },
 							{ "amount": 10, "type" : "invisibleMan" }
 						],
-						"combat_value": 10000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 6500
-							},
-							"creatures" : 
-							[
-								{ "amount": 6, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 6500
+						},
+						"creatures" : 
+						[
+							{ "amount": 6, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 5,
+						"message" : 34,
+						"appearChance": { "min" : 85, "max" : 90 },
 						"guards": [
 							{ "amount": 12, "type" : "invisibleMan" },
 							{ "amount": 12, "type" : "invisibleMan" },
@@ -154,21 +145,18 @@
 							{ "amount": 12, "type" : "invisibleMan" },
 							{ "amount": 12, "type" : "invisibleMan" }
 						],
-						"combat_value": 12000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 7500
-							},
-							"creatures" : 
-							[
-								{ "amount": 7, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 7500
+						},
+						"creatures" : 
+						[
+							{ "amount": 7, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 5,
+						"message" : 34,
+						"appearChance": { "min" : 90, "max" : 95 },
 						"guards": [
 							{ "amount": 14, "type" : "invisibleMan" },
 							{ "amount": 14, "type" : "invisibleMan" },
@@ -178,21 +166,18 @@
 							{ "amount": 14, "type" : "invisibleMan" },
 							{ "amount": 14, "type" : "invisibleMan" }
 						],
-						"combat_value": 15000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 8500
-							},
-							"creatures" : 
-							[
-								{ "amount": 8, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 8500
+						},
+						"creatures" : 
+						[
+							{ "amount": 8, "type": "invisibleMan" }
+						]
 					},
 					{
-						"chance": 5,
+						"message" : 34,
+						"appearChance": { "min" : 95, "max" : 100 },
 						"guards": [
 							{ "amount": 18, "type" : "invisibleMan" },
 							{ "amount": 18, "type" : "invisibleMan" },
@@ -202,18 +187,14 @@
 							{ "amount": 18, "type" : "invisibleMan" },
 							{ "amount": 18, "type" : "invisibleMan" }
 						],
-						"combat_value": 20000,
-							"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 9500
-							},
-							"creatures" : 
-							[
-								{ "amount": 10, "type": "invisibleMan" }
-							]
-						}
+						"resources": 
+						{
+							"gold" : 9500
+						},
+						"creatures" : 
+						[
+							{ "amount": 10, "type": "invisibleMan" }
+						]
 					}
 				]
 			}
